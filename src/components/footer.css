@@ -5,22 +5,22 @@
   line-height: 9px;
   text-align: left;
   display: block;
-  color: rgb(0, 0, 0, 0.35);
+  color: var(--black-light);
 }
 
 .footer-link:link,
 .footer-link :visited {
-  color: rgb(0, 0, 0, 0.35);
+  color: var(--black-light);
 }
 
 .footer-link:hover,
 .footer-link:active {
-  color: rgb(0, 0, 0, 0.6);
+  color: var(--black-medium);
   cursor: pointer;
 }
 
 .footer-link.last {
-  color: rgb(0, 0, 0, 0.6);
+  color: var(--black-medium);
 }
 
 .footer-main {
@@ -32,12 +32,12 @@
 }
 
 .footer-arrow {
-  color: rgb(0, 0, 0, 0.35);
+  color: var(--black-light);
   width: 0.9rem;
   height: 0.9rem;
 }
 .footer-text {
-  color: rgb(0, 0, 0, 0.35);
+  color: var(--black-light);
   height: 0.45rem;
   display: flex;
   align-items: self-end;
@@ -49,8 +49,8 @@
   flex-direction: row;
   align-items: center;
   gap: 0.2rem;
-  background-color: #000;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
 }
 .footer-bar-text {
   margin-left: 2.4rem;

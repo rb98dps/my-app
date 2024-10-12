@@ -15,27 +15,27 @@
   font-weight: 400;
   line-height: 1.2rem;
   cursor: pointer;
-  border: 0.5px solid #000;
+  border: 0.5px solid var(--black);
   border-radius: 1rem;
   padding: 0.6rem 1.2rem;
   width: 6.9rem;
   display: block;
   text-align: center;
   text-decoration: none;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .nav-link:link,
 .nav-link :visited {
-  background-color: #fff;
-  color: #000;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .nav-link:hover,
 .nav-link:active {
-  background-color: #000;
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
 }
 
 /* ----Sub Navigation------
@@ -62,20 +62,20 @@
   padding-bottom: 0.5rem;
   border-bottom: 0.1rem solid transparent;
   text-decoration: none;
-  color: rgb(0, 0, 0, 0.6);
+  color: var(--black-medium);
 }
 
 .sub-nav-link:link,
 .sub-nav-link :visited {
-  background-color: #fff;
-  color: rgb(0, 0, 0, 0.6);
+  background-color: var(--white);
+  color: var(--black-medium);
 }
 
 .sub-nav-link:hover,
 .sub-nav-link:active {
-  background-color: #fff;
+  background-color: var(--white);
   color: rgb(0, 0, 0);
-  border-bottom: #000 solid 0.1rem;
+  border-bottom: var(--black) solid 0.1rem;
 }
 
 /* ----Sub Navigation 1------

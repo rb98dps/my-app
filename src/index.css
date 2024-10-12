@@ -1,3 +1,11 @@
+:root {
+  --black-dark: rgb(0, 0, 0, 0.8);
+  --black-medium: rgb(0, 0, 0, 0.6);
+  --black-light: rgb(0, 0, 0, 0.35);
+  --white: #fff;
+  --black: #000;
+}
+
 * {
   margin: 0;
   padding: 0;
