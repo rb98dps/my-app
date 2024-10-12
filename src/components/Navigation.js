@@ -43,12 +43,12 @@ const Navigation = ({
 };
 
 Navigation.propTypes = {
-  navItems: PropTypes.arrayOf(PropTypes.string).isRequired, // Array of strings (menu items) is required
-  navContainerClass: PropTypes.string, // Class for section tag
-  defaultContainerClass: PropTypes.string, // Class for div container
-  navListClass: PropTypes.string, // Class for ul tag
-  navItemClass: PropTypes.string, // Class for li tags
-  navLinkClass: PropTypes.string, // Class for a tags
+  navItems: PropTypes.arrayOf(PropTypes.string).isRequired,
+  navContainerClass: PropTypes.string,
+  defaultContainerClass: PropTypes.string,
+  navListClass: PropTypes.string,
+  navItemClass: PropTypes.string,
+  navLinkClass: PropTypes.string,
 };
 
 export default Navigation;

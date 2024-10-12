@@ -1,5 +1,6 @@
 import React from "react";
 import "./setting-header.css";
+import PropTypes from "prop-types";
 
 const SettingHeader = ({ headingText }) => {
   return (
@@ -24,5 +25,7 @@ const SettingHeader = ({ headingText }) => {
     </header>
   );
 };
-
+SettingHeader.propTypes = {
+  headingText: PropTypes.string,
+};
 export default SettingHeader;

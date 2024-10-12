@@ -1,5 +1,7 @@
 import React from "react";
 import "./passport-container.css";
+import PropTypes from "prop-types";
+
 const PassportContainer = ({
   mainImageSrc,
   mainHeading,
@@ -85,5 +87,14 @@ function Footer({ certifiedBy, logoSrc, blockchainText, blockchainHash }) {
     </div>
   );
 }
-
+PassportContainer.propTypes = {
+  mainImageSrc: PropTypes.string.isRequired,
+  mainHeading: PropTypes.string.isRequired,
+  mainText: PropTypes.string.isRequired,
+  secondaryImageSrc: PropTypes.string.isRequired,
+  secondaryText: PropTypes.string.isRequired,
+  itemHeading: PropTypes.string.isRequired,
+  itemDetails: PropTypes.arrayOf(PropTypes.string).isRequired,
+  footerProps: PropTypes.object.isRequired,
+};
 export default PassportContainer;

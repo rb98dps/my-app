@@ -1,3 +1,5 @@
+/*-----FOOTER-----*/
+
 .footer-link {
   font-family: Syne;
   font-size: 9px;
@@ -43,6 +45,8 @@
   align-items: self-end;
   font-weight: 400;
 }
+
+/*-----FOOTER BAR-----*/
 
 .footer-bar {
   display: flex;

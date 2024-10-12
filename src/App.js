@@ -14,6 +14,7 @@ import { useState } from "react";
 import Footer from "./components/Footer";
 
 function App() {
+  /* Navigation items dynamic list */
   const navItems = [
     {
       items: ["Home", "Explore", "Create", "Settings"],
@@ -39,9 +40,10 @@ function App() {
       navItemClass: "sub-nav-item",
       navLinkClass: "sub-nav-link",
     },
-  ]; // Dynamic list of navigation items
+  ];
 
-  const passportHeading = "Digital passport"; // Dynamic list
+  const passportHeading = "Digital passport";
+
   const passporFooterProps = {
     certifiedBy: "Certified by",
     logoSrc: "./assign-logo.png",
@@ -66,7 +68,7 @@ function App() {
     "Signed, numbered and dated on verso",
   ];
 
-  // State management for selected indexes
+  // State management for selected indexes of buttons
   const [nameSelectedIndex, setNameSelectedIndex] = useState(0);
   const [logoSelectedIndex, setLogoSelectedIndex] = useState(0);
   const [visualSelectedIndex, setVisualSelectedIndex] = useState(0);
@@ -149,7 +151,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header headerName={"Gallery Name"} />
       <SearchBar width={20} />
       {navItems.map((nav, index) => (
         <Navigation

@@ -40,7 +40,7 @@ const SearchBar = ({ totwidth = 16 }) => {
           type="text"
           className="search-box"
           placeholder="search by artwork, artist name..."
-          style={{ width: `${totwidth}rem` }} // Set width from prop
+          style={{ width: `${totwidth}rem` }}
         />
       </div>
     </section>

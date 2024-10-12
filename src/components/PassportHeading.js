@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./passport-heading.css"; // Ensure you import the CSS file correctly
+import "./passport-heading.css";
 
 const PassportHeading = ({ headingText }) => {
   return (
@@ -30,7 +30,7 @@ const PassportHeading = ({ headingText }) => {
 };
 
 PassportHeading.propTypes = {
-  headingText: PropTypes.string.isRequired, // Ensures headingText is required
+  headingText: PropTypes.string.isRequired,
 };
 
 export default PassportHeading;

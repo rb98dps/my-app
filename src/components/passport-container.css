@@ -2,32 +2,6 @@
   margin-bottom: 1.2rem;
 }
 
-.passport-heading {
-  margin-top: 1.8rem;
-}
-
-.passport-heading-content {
-  font-size: 1.1rem;
-  font-weight: 500;
-  line-height: 0.7rem;
-  display: block;
-  color: var(--white);
-  width: 18.3rem;
-  height: 2.1rem;
-  background-color: var(--black);
-  display: flex;
-  align-items: center;
-  border-radius: 1rem;
-  gap: 0.6rem;
-  margin: 0 auto;
-}
-
-.passport-heading-icon {
-  margin-left: 0.6rem;
-  width: 1.3rem;
-  height: 1.3rem;
-}
-
 /* ----Passport------
   ------------------- */
 

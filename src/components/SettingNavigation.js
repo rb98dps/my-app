@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./setting-navigation.css";
 import "./navigation.css";
+import PropTypes from "prop-types";
 
 const SettingNavigation = ({ links }) => {
   const [activeIndex, setActiveIndex] = useState(0); // Default active index
@@ -28,6 +29,10 @@ const SettingNavigation = ({ links }) => {
       </ul>
     </div>
   );
+};
+
+SettingNavigation.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
 export default SettingNavigation;

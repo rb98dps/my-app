@@ -11,6 +11,8 @@ const SettingsContainer = ({
   onButtonClick,
   selectedIndex,
 }) => {
+  /* Only add buttonSetClassName div, if it is defined */
+
   return (
     <div className={containerClassName}>
       {messageText && <span className={textClassName}>{messageText}</span>}

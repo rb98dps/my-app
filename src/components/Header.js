@@ -1,6 +1,8 @@
 import React from "react";
 import "./header.css";
-const Header = () => {
+import PropTypes from "prop-types";
+
+const Header = ({ headerName }) => {
   return (
     <section className="header">
       <svg
@@ -18,9 +20,12 @@ const Header = () => {
         />
       </svg>
 
-      <h1 className="header-name">Gallery Name</h1>
+      <h1 className="header-name">{headerName}</h1>
     </section>
   );
 };
 
+Header.propTypes = {
+  headingText: PropTypes.string.isRequired,
+};
 export default Header;
