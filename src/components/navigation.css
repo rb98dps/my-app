@@ -1,0 +1,91 @@
+.navigation {
+  margin-bottom: 2.6rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  cursor: pointer;
+  border: 0.5px solid #000;
+  border-radius: 1rem;
+  padding: 0.6rem 1.2rem;
+  width: 6.9rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-link:link,
+.nav-link :visited {
+  background-color: #fff;
+  color: #000;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: #000;
+  color: #fff;
+}
+
+/* ----Sub Navigation------
+------------------- */
+
+.sub-navigation {
+  margin-bottom: 1.6rem;
+}
+
+.sub-nav-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.sub-nav-link {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 0.7rem;
+  cursor: pointer;
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid transparent;
+  text-decoration: none;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.sub-nav-link:link,
+.sub-nav-link :visited {
+  background-color: #fff;
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.sub-nav-link:hover,
+.sub-nav-link:active {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+  border-bottom: #000 solid 0.1rem;
+}
+
+/* ----Sub Navigation 1------
+  ------------------- */
+
+.sub-nav-list-1 {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 4.6rem;
+  width: 7rem;
+}

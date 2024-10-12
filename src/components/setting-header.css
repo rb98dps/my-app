@@ -1,0 +1,17 @@
+.setting-header {
+  display: flex;
+  gap: 0.24rem;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1.3rem;
+}
+.setting-header-icon {
+  width: 1.02rem;
+  height: 1.02rem;
+}
+.setting-header-text {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.32rem;
+  text-align: left;
+}

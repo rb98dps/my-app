@@ -1,0 +1,33 @@
+/* general.css */
+.default-container {
+  max-width: 134rem;
+  margin: 0 2.5rem;
+}
+
+.main-container {
+  max-width: 24.02rem;
+  margin: 0 auto;
+}
+
+.left-margin-25px {
+  margin-left: 2.5rem;
+}
+
+.margin-10px-Xaxis {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.margin-9px-Xaxis {
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
+}
+
+.grid--2columns {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.line-height-7_2px {
+  line-height: 0.72rem;
+}

@@ -1,0 +1,65 @@
+.footer-link {
+  font-family: Syne;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 9px;
+  text-align: left;
+  display: block;
+  color: rgb(0, 0, 0, 0.35);
+}
+
+.footer-link:link,
+.footer-link :visited {
+  color: rgb(0, 0, 0, 0.35);
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: rgb(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.footer-link.last {
+  color: rgb(0, 0, 0, 0.6);
+}
+
+.footer-main {
+  margin-left: 2.3rem;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+
+.footer-arrow {
+  color: rgb(0, 0, 0, 0.35);
+  width: 0.9rem;
+  height: 0.9rem;
+}
+.footer-text {
+  color: rgb(0, 0, 0, 0.35);
+  height: 0.45rem;
+  display: flex;
+  align-items: self-end;
+  font-weight: 400;
+}
+
+.footer-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+  background-color: #000;
+  color: #fff;
+}
+.footer-bar-text {
+  margin-left: 2.4rem;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 400;
+  text-align: left;
+}
+.footer-bar-logo {
+  width: 2.3rem;
+  height: 0.5rem;
+}

@@ -1,0 +1,36 @@
+/* searchBar.css */
+.search-container {
+  display: inline-block;
+  margin-bottom: 2.3rem;
+  position: relative;
+}
+
+.search-box {
+  border-radius: 2.5rem;
+  width: 16rem;
+  height: 2.1rem;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  font-size: 0.8rem;
+  outline: none;
+  color: #333;
+  font-weight: 500;
+  line-height: 0.96rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0.7rem;
+}
+
+.search-box::placeholder {
+  color: rgba(0, 0, 0, 0.35);
+  font-family: "Syne", sans-serif;
+}
+
+.search-icon {
+  position: absolute;
+  height: 1.63rem;
+  width: 1.6rem;
+  right: 1rem;
+  top: 0.2rem;
+  pointer-events: none;
+}

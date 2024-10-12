@@ -1,0 +1,11 @@
+.setting-navigation {
+  margin-bottom: 1rem;
+}
+
+.setting-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.6rem;
+  margin-left: 7.1rem;
+  width: 7rem;
+}
