@@ -48,7 +48,7 @@ function App() {
     certifiedBy: "Certified by",
     logoSrc: "./assign-logo.png",
     blockchainText: "BLOCKCHAIN REGISTERED",
-    blockchainHash: "0xbe7aA7316Ec...F788FF50b2c18886",
+    blockchainHash: "0xbe7aA7316Ec4535463F788FF50b2c18886",
   };
 
   const passportProps = {

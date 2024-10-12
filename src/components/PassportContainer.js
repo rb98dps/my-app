@@ -60,6 +60,7 @@ const PassportContainer = ({
 };
 
 function Footer({ certifiedBy, logoSrc, blockchainText, blockchainHash }) {
+  const trimmedHash = trimHash(blockchainHash);
   return (
     <div className="passport-footer">
       <div className="footer-certificate">
@@ -81,12 +82,23 @@ function Footer({ certifiedBy, logoSrc, blockchainText, blockchainHash }) {
         </svg>
         <span className="footer-registration">{blockchainText}</span>
         <a href="#" className="footer-hash">
-          {blockchainHash}
+          {trimmedHash}
         </a>
       </div>
     </div>
   );
 }
+
+function trimHash(hash, maxLength = 32) {
+  // Check if the hash exceeds the maximum length
+  if (hash.length > maxLength) {
+    const start = hash.slice(0, 13);
+    const end = hash.slice(-16);
+    return `${start}...${end}`;
+  }
+  return hash;
+}
+
 PassportContainer.propTypes = {
   mainImageSrc: PropTypes.string.isRequired,
   mainHeading: PropTypes.string.isRequired,
